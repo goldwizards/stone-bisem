@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "mined": {
+      "trigger": "minecraft:player_mined_block",
+      "conditions": {
+        "block": "minecraft:diamond_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "oregen:upgrade/break_diamond"
+  }
+}

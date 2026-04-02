@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:iron_block"
+      }
+    }
+  },
+  "rewards": {
+    "function": "oregen:upgrade/place_iron"
+  }
+}
