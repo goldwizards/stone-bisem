@@ -1,10 +1,5 @@
-scoreboard players set @s og.coal 0
-scoreboard players set @s og.iron 0
-scoreboard players set @s og.gold 0
-scoreboard players set @s og.diamond 0
-scoreboard players set @s og.emerald 0
-function oregen:scan/coal
-function oregen:scan/iron
-function oregen:scan/gold
-function oregen:scan/diamond
-function oregen:scan/emerald
+scoreboard players operation @s og.coal = #global og.coal
+scoreboard players operation @s og.iron = #global og.iron
+scoreboard players operation @s og.gold = #global og.gold
+scoreboard players operation @s og.diamond = #global og.diamond
+scoreboard players operation @s og.emerald = #global og.emerald
